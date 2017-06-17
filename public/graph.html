@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/af.js"></script> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="css/jquery-feedback/contactus.css" /> -->
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sliding.form.js"></script>
+<style>
+
+body {
+
+background-image: url('image/softCloth.png');
+
+}
+
+
+a {
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.modal {
+border: 25px solid white;
+background-image: url('image/softCloth.png');
+
+}
+
+
+
+
+h1 {
+padding-top: 100px;
+text-align: center;
+padding-bottom: 20px;
+border-bottom: 2px white solid;
+margin-left: 300px;
+margin-right: 300px;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.btn-primary {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: .5;
+  margin-left: 1060px;
+  background-color: #2d2d30;
+  border: none;
+  clear: left;
+  margin-left: 900px;
+    background-color: #2d2d30;
+    border: none;
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+#myNavbar.collapse.navbar-collapse {
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 0px;
+        background-color: #2d2d30 !important;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity: 1.5;
+
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+  background-color: #A9A9A9 !important;
+  border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.panel-primary {
+
+background-color: white;
+/*border: .5px solid blue;*/
+}
+
+
+
+.panel-primary>.panel-heading {
+
+
+/*border-top: 1px solid blue;*/
+    background-color: #A9A9A9 !important;
+}
+
+
+td {
+margin-top: 300px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px;
+}
+
+th {
+  margin-top: 300px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 26px;
+}
+
+#demo {
+  font-family: 'Open Sans Condensed', sans-serif;
+font-size: 15px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 170px;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding-left: 60px;
+}
+
+
+
+.table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    padding-left: 60px;
+}
+
+legend {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 30px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #337ab7;
+    border: none;
+
+}
+
+
+.btn-success {
+    border: none;
+    background-color: grey;
+}
+
+.modal-body {
+}
+.panel-primary {
+
+}
+
+body
+{
+  background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+div.widget {
+  height: 600px;
+  width: 350px;
+  /*overflow: auto;*/
+  display: block;
+  position: relative;
+  border-radius: 15px;
+  margin-top: 100px;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px #AAA;
+margin-left: 550px;
+  font-family: 'Open Sans Condensed', sans-serif;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+ 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+img {
+    margin-left: 100px;
+    vertical-align: middle;
+    margin-top: 50px;
+    border: 2px solid #2d2d30;
+}
+
+
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 35px;
+    /* border-bottom: 2px white solid; */
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+h2.date {
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 50px;
+font-weight: bold;
+}
+
+div.widget div.head {
+  display: block;
+  position: relative;
+  padding: 10px;
+  background-color: #3498DB;
+  background: -webkit-linear-gradient(#3498DB, #2980B9);
+  background: -moz-linear-gradient(#3498DB, #2980B9);
+  background: -o-linear-gradient(#3498DB, #2980B9);
+  background: linear-gradient(#3498DB, #2980B9);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  /*text-align: center;*/
+}
+div.widget div.head p,
+div.widget div.head h2 {
+  display: block;
+  color: #FFF;
+  cursor: default;
+}
+div.widget div.head p {
+  font-size: 40px;
+}
+div.widget div.head h2 {
+  font-size: 48px;
+}
+div.widget div.head p.day {
+  margin-top: 25px;
+}
+div.widget div.head p.month {
+  margin-bottom: 25px;
+}
+div.widget div.head i.trg {
+  height: 12px;
+  position: absolute;
+  margin: auto auto;
+  top: 0;
+  bottom: 0;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.15s;
+  -moz-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s;
+}
+div.widget div.head i.trg.trg-prev {
+  left: 10px;
+}
+div.widget div.head i.trg.trg-prev:hover {
+  left: 9px;
+}
+div.widget div.head i.trg.trg-next {
+  right: 10px;
+}
+div.widget div.head i.trg.trg-next:hover {
+  right: 9px;
+}
+div.widget div.body {
+  display: block;*/
+  position: relative;*/
+  /*background-color: #FFF;*/
+  /*border-bottom-left-radius: 2px;*/
+  /*border-bottom-right-radius: 2px;*/
+  /*text-align: center;*/
+
+}
+
+div.widget div.head p.month {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+
+
+
+div.widget div.head p.day {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+div.widget div.head p {
+    font-size: 10px;
+    text-align: center;
+}
+
+div.widget div.body table {
+  margin: auto auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  cursor: pointer;
+}
+div.widget div.body td {
+  padding: 10px;
+  -webkit-transition: background-color ease-in-out 0.15s;
+  -moz-transition: background-color ease-in-out 0.15s;
+  -o-transition: background-color ease-in-out 0.15s;
+  transition: background-color ease-in-out 0.15s;
+}
+div.widget div.body td:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+}
+div.widget div.body td.prev {
+  background-color: #FFF;
+  color: #AAA;
+  cursor: default;
+}
+div.widget div.body tr.head td {
+  background-color: #FFF;
+  cursor: default;
+}
+div.widget div.body tr.head td > * {
+  color: #3498DB;*/
+}
+
+.widget {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-bottom: 300px;
+}
+
+td {
+background-color: white;
+size: 80%;
+
+}
+
+.day {
+
+  font-size: 40px;
+}
+
+#formElm {
+
+margin-top: 30px;
+
+}
+
+#wrapper {
+    -moz-box-shadow: 0px 0px 3px #aaa;
+    -webkit-box-shadow: 0px 0px 3px #aaa;
+    box-shadow: 0px 0px 3px #aaa;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*border-radius: 10px;*/
+    border: 2px solid #2d2d30;
+  background-color: #white !important;
+    width: 600px;
+    overflow: hidden;
+    margin-top: 150px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content{
+    margin:15px auto;
+    text-align:center;
+    width:600px;
+    position:relative;
+    height:100%;
+}
+/*#wrapper{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:2px solid #fff;
+    background-color:#f9f9f9;
+    width:600px;
+    overflow:hidden;
+}*/
+#steps{
+    width:600px;
+	/*height:320px;*/
+    overflow:hidden;
+}
+.step{
+    float:left;
+    width:600px;
+	/*height:320px;*/
+}
+#navigation{
+    height:45px;
+    background-color:#e9e9e9;
+    border-top:1px solid #fff;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-left-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#navigation ul{
+    list-style:none;
+	float:left;
+	margin-left:22px;
+}
+#navigation ul li{
+	float:left;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    position:relative;
+	margin:0px 2px;
+}
+#navigation ul li a{
+    display:block;
+    height:45px;
+    background-color:#444;
+    color:#777;
+    outline:none;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:45px;
+    padding:0px 20px;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    background:#f0f0f0;
+    background:
+        -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.09, rgb(240,240,240)),
+        color-stop(0.55, rgb(227,227,227)),
+        color-stop(0.78, rgb(240,240,240))
+        );
+    background:
+        -moz-linear-gradient(
+        center bottom,
+        rgb(240,240,240) 9%,
+        rgb(227,227,227) 55%,
+        rgb(240,240,240) 78%
+        )
+}
+#navigation ul li a:hover,
+#navigation ul li.selected a{
+    background:#d8d8d8;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+span.checked{
+    background:transparent url(../images/checked.png) no-repeat top left;
+    position:absolute;
+    top:0px;
+    left:1px;
+    width:20px;
+    height:20px;
+}
+span.error{
+    background:transparent url(../images/error.png) no-repeat top left;
+    position:absolute;
+    top:0px;
+    left:1px;
+    width:20px;
+    height:20px;
+}
+#steps form fieldset{
+    border:none;
+    padding-bottom:20px;
+}
+#steps form legend{
+    text-align:left;
+    background-color:#f0f0f0;
+    color:#666;
+    font-size:24px;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+    float:left;
+    width:590px;
+    padding:5px 0px 5px 10px;
+    margin:10px 0px;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #d9d9d9;
+}
+#steps form p{
+    float:left;
+    clear:both;
+    margin:5px 0px;
+    background-color:#f4f4f4;
+    border:1px solid #fff;
+    width:400px;
+    padding:10px;
+    margin-left:100px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+}
+#steps form p label{
+    width:160px;
+    float:left;
+    text-align:right;
+    margin-right:15px;
+    line-height:26px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+}
+#steps form input:not([type=radio]),
+#steps form textarea,
+#steps form select{
+    background: #ffffff;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    float:left;
+}
+#steps form input:focus{
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background-color:#FFFEEF;
+}
+#steps form p.submit{
+    background:none;
+    border:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+#steps form button {
+	border:none;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 0px auto;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    font-weight:bold;
+    font-family:"Century Gothic", Helvetica, sans-serif;
+    font-size:22px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background:#4797ED;
+}
+#steps form button:hover {
+    background:#d8d8d8;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+</style>
+
+
+<script>
+$(document).ready(function() {
+  var d = new Date();
+  var cd = d.getDate();
+  var cm = d.getMonth() + 1;
+  var cy = d.getFullYear();
+  var M = cm;
+  var Y = cy;
+
+  var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  var months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+  monthDays = function(m, y) {
+    var d = new Date(y, m, 0).getDate();
+    return d;
+  };
+  firstDay = function(m, y) {
+    var d = new Date(y, m - 1, 1).getDay();
+    d = (d === 0) ? 7 : d
+    return d;
+  };
+  currentDay = function(d, m, y) {
+    var d = new Date(y, m - 1, d).getDay();
+    d = (d === 0) ? 7 : d
+    return d;
+  };
+
+  function calendar(M, Y) {
+    M = M || cm;
+    Y = Y || cy;
+    //calendar dates
+    var date = cd + '/' + ('0' + M).substr(-2) + '/' + ('000' + Y).substr(-4);
+    var totalDays = monthDays(M, Y);
+    var lastMonth = monthDays(M - 1, Y);
+    var firstday = firstDay(M, Y);
+    var actualDay = currentDay(cd, M, Y);
+    //counters
+    var dateCount = 1;
+    var dayCount = 0;
+    //prev padding
+    for (var i = 1; i < firstday; i++) {
+      var oldDate = lastMonth - ((firstday - 1) - i);
+      if (dayCount == 0)
+        $('div.widget div.body table').append('<tr>');
+      $('div.widget div.body table tr:last').append('<td class="prev"><p>' + oldDate + '</p></td>');
+      dayCount++;
+      if (dayCount == 7) {
+        $('div.widget div.body table tr:last').after('</tr>');
+        dayCount = 0;
+      };
+    };
+    //calendar
+    for (var i = 1; i <= totalDays; i++) {
+      if (dayCount == 0)
+        $('div.widget div.body table').append('<tr>');
+      $('div.widget div.body table tr:last').append('<td data-date="' + i + '" data-day="' + dayCount + '"><p>' + i + '</p></td>');
+      dayCount++;
+      if (dayCount == 7) {
+        $('div.widget div.body table tr:last').after('</tr>');
+        dayCount = 0;
+      };
+    };
+    //next padding
+    if (dayCount != 0) {
+      var nextMonth = 0;
+      for (var i = dayCount; i < 7; i++) {
+        nextMonth++;
+        $('div.widget div.body table tr:last').append('<td class="prev"><p>' + nextMonth + '</p></td>');
+        if (i == 7)
+          $('div.widget div.body table tr:last').after('</tr>');
+      };
+    };
+    $('div.widget div.head p.day').html(days[actualDay - 1]);
+    $('div.widget div.head h2.date').html(cd);
+    $('div.widget div.head p.month').html(months[M - 1] + ' / ' + Y);
+  };
+  calendar();
+  //calendar date clicker
+  $(document).on('click', 'div.widget div.body table td:not(.prev, .next)', function() {
+    var trg = $(this);
+    var date = $(this).data("date");
+    var day = $(this).data("day");
+
+    $('div.head p.day').html(days[day]);
+    $('div.head h2.date').html(date);
+  });
+  //previous month clicker
+  $(document).on('click', 'div.head i.trg-prev', function() {
+    $('div.widget div.body table tr.head').nextAll().remove();
+    M = M - 1;
+    if (M == 0) {
+      M = 12;
+      Y = Y - 1;
+    };
+    calendar(M, Y);
+    $('div.widget div.head p.month').html(months[M - 1] + ' / ' + Y);
+  });
+  //next month clicker
+  $(document).on('click', 'div.head i.trg-next', function() {
+    $('div.widget div.body table tr.head').nextAll().remove();
+    M = M + 1;
+    if (M == 13) {
+      M = 1;
+      Y = Y + 1;
+    };
+    calendar(M, Y);
+    $('div.widget div.head p.month').html(months[M - 1] + ' / ' + Y);
+  });
+});
+
+</script>
+
+
+</head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-fixed-top">
+      <!-- <div class="container-fluid"> -->
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#myPage">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Extras</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <br/><br/><br/>
+          <!-- <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#vote" data-original-title>
+            Vote Now!
+          </a> -->
+
+          <div class = "row">
+
+      <img src = "image/schoolEmblem.jpg" height="175" width="175" padding-top:"100px"/>
+
+      <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" data-original-title>
+              Interstaff Communication
+              </a>
+              <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="panel panel-primary">
+                          <div class="panel-heading">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                              <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span>Interstaff Communication</h4>
+                          </div>
+                          <form action="#" method="post" accept-charset="utf-8">
+                          <div class="modal-body" style="padding: 5px;">
+                                <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                                          <input class="form-control" name="firstname" placeholder=" Student Firstname" type="text" required autofocus />
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+                                          <input class="form-control" name="lastname" placeholder="Student Lastname" type="text" required />
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                          <input class="form-control" name="email" placeholder="Teacher E-mail" type="text" required />
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                          <input class="form-control" name="subject" placeholder="Subject" type="text" required />
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12 col-md-12 col-sm-12">
+                                          <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="panel-footer" style="margin-bottom:-14px;">
+                                  <input type="submit" class="btn btn-success" value="Send"/>
+                                      <!--<span class="glyphicon glyphicon-ok"></span>-->
+                                  <input type="reset" class="btn btn-danger" value="Clear" />
+                                      <!--<span class="glyphicon glyphicon-remove"></span>-->
+                                  <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+          <h1>Attendance</h1>
+
+
+            <p id="demo"></p>
+
+          <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d.toDateString();
+          </script>
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Present</th>
+                  <th>Absent</th>
+                  <th>Late</th>
+                  <th>Days Absent</th>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+
+                  </td>
+
+                  </div>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>
+                    <div><input type="checkbox" </div></td>
+                  <td>5</td>
+                </tr>
+
+
+              </tbody>
+            </table>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+<div class = "row">
+
+
+
+    <div id="content">
+
+        <div id="wrapper">
+            <div id="steps">
+                <form id="formElem" name="formElem" action="" method="post">
+                    <fieldset class="step">
+                        <legend>Announcements</legend>
+                        <p>
+                          A lot of cool info goes here!
+                        </p>
+
+                    </fieldset>
+                    <fieldset class="step">
+                        <legend>Teacher Recognition</legend>
+
+                        <p>
+                          <img src="image/teacher.jpg" height="150" width="175"/>
+                          A lot of cool info goes here!
+                        </p>
+                        <!-- <p>
+                            <label for="name">Full Name</label>
+                            <input id="name" name="name" type="text" AUTOCOMPLETE=OFF />
+                        </p>
+                        <p>
+                            <label for="country">Country</label>
+                            <input id="country" name="country" type="text" AUTOCOMPLETE=OFF />
+                        </p>
+                        <p>
+                            <label for="phone">Phone</label>
+                            <input id="phone" name="phone" placeholder="e.g. +351215555555" type="tel" AUTOCOMPLETE=OFF />
+                        </p> -->
+                        <!-- <p>
+                            <label for="website">Website</label>
+                            <input id="website" name="website" placeholder="e.g. http://www.codrops.com" type="tel" AUTOCOMPLETE=OFF />
+                        </p> -->
+                    </fieldset>
+                    <fieldset class="step">
+                        <legend>Sports Headlines</legend>
+                        <p>
+                          <img src="image/football.jpg" height="150" width="190"/>
+                          A lot of cool info goes here!
+                        </p>
+
+
+                    </fieldset>
+                    <fieldset class="step">
+                        <legend>To Be determined</legend>
+                        <p>
+                          A lot of cool info goes here!
+                        </p>
+
+                        <!-- <p>
+                            <label for="newsletter">Newsletter</label>
+                            <select id="newsletter" name="newsletter">
+                                <option value="Daily" selected>Daily</option>
+                                <option value="Weekly">Weekly</option>
+                                <option value="Monthly">Monthly</option>
+                                <option value="Never">Never</option>
+                            </select>
+                        </p> -->
+                        <!-- <p>
+                            <label for="updates">Updates</label>
+                            <select id="updates" name="updates">
+                                <option value="1" selected>Package 1</option>
+                                <option value="2">Package 2</option>
+                                <option value="0">Don't send updates</option>
+                            </select>
+                        </p>
+          <p>
+                            <label for="tagname">Newsletter Tag</label>
+                            <input id="tagname" name="tagname" type="text" AUTOCOMPLETE=OFF />
+                        </p> -->
+                    </fieldset>
+        <fieldset class="step">
+                        <legend>To Be Determined</legend>
+          <p>
+            Everything in the form was correctly filled
+            if all the steps have a green checkmark icon.
+            A red checkmark icon indicates that some field
+            is missing or filled out with invalid data. In this
+            last step the user can confirm the submission of
+            the form.
+          </p>
+                        <p class="submit">
+                            <button id="registerButton" type="submit">Register</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="navigation" style="display:none;">
+                <ul>
+                    <li class="selected">
+                        <a href="#">Announcements</a>
+                    </li>
+                    <li>
+                        <a href="#">Teacher Recognition</a>
+                    </li>
+                    <li>
+                        <a href="#">Sports Headlines</a>
+                    </li>
+                    <li>
+                        <a href="#">#</a>
+                    </li>
+        <li>
+                        <a href="#">#</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="widget">
+    <div class="head">
+      <p class="day"></p>
+      <h2 class="date"></h2>
+      <p class="month"></p>
+      <i class="trg trg-prev fa fa-fw fa-caret-left"></i>
+      <i class="trg trg-next fa fa-fw fa-caret-right"></i>
+    </div>
+    <div class="body">
+      <table>
+        <tbody>
+          <tr class="head">
+            <td>
+              <p>M</p>
+            </td>
+            <td>
+              <p>T</p>
+            </td>
+            <td>
+              <p>W</p>
+            </td>
+            <td>
+              <p>T</p>
+            </td>
+            <td>
+              <p>F</p>
+            </td>
+            <td>
+              <p>S</p>
+            </td>
+            <td>
+              <p>S</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<br />
+<br />
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\

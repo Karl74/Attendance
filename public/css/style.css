@@ -1,0 +1,38 @@
+
+
+.row-black {
+
+background-color: black;
+height: 400px;
+
+}
+
+#myNavbar.collapse.navbar-collapse {
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 0px;
+        background-color: #2d2d30 !important;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity: 1.5;
+
+
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+
+
+
+}
+
+.navbar-brand {
+font-family: Montserrat, sans-serif;
+
+
+
+}
