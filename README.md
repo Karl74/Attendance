@@ -13,7 +13,7 @@ Attendance App
  
 Idea:
  
-The idea for this app is a result of a cut in public funding for schools.  
+The idea for this app is a result of a recent cut in public funding for schools.  
  
 Carlos has a good friend in Oklahoma.  The school district this friend works for had to stop using the expensive software used for school attendance and resort to taking attendance by pen and paper.  Carlos and I would like to make an App for this friend to use in order to take attendance in a quicker and more efficient way.  
  
@@ -35,5 +35,7 @@ Timeline
 ![projectworkflow1](https://user-images.githubusercontent.com/20691248/27249684-c0ee019c-52e0-11e7-8b9b-1fac8f6667ef.jpg)
 ---
  ##Layouts
+ 
+ 
 
 
