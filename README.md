@@ -1,7 +1,7 @@
 # Attendance
 ## About the project
 ---
-
+Working on Project3!!
 
 The app helps the small school districts to ........
 ---
