@@ -1,0 +1,19 @@
+{
+  "name": "attendance",
+  "version": "1.0.1",
+  "description": "Tool for administrate attendace at elementary and secundary school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karl74/Attendance.git"
+  },
+  "author": "Karl74",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karl74/Attendance/issues"
+  },
+  "homepage": "https://github.com/Karl74/Attendance#readme"
+}
