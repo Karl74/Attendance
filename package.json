@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Karl74/Attendance/issues"
   },
-  "homepage": "https://github.com/Karl74/Attendance#readme"
+  "homepage": "https://github.com/Karl74/Attendance#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
