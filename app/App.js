@@ -1,6 +1,8 @@
-var React = require("react");
-var ReactDOM = require("react-dom");
 
-var Parent = require("./Parent");
+import React from "react"
 
-ReactDOM.render(<Parent />, document.getElementById("app"));
+import ReactDOM from "react-dom"
+
+import routes from "./config/routes.js"
+
+ReactDOM.render(routes, document.getElementById("app"));
