@@ -6,6 +6,8 @@ import{Row, Col} from "react-grid-system"
 
 export default class Welcome extends React.Component {
   render(){
-    return ();
+    return (
+      <div></div>
+    );
   }
 }

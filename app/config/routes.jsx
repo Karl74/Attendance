@@ -1,10 +1,10 @@
 import React from "react"
 import {Router, Route, browserHistory, IndexRoute} from "react-router"
 
-import Main from "../pages/Main"
-import Welcome from "../pages/Welcome"
-import Admin from "../pages/Admin"
-import Teacher from "../pages/Teacher"
+import Main from "../pages/Main.jsx"
+import Welcome from "../pages/Welcome.jsx"
+import Admin from "../pages/Admin.jsx"
+import Teacher from "../pages/Teacher.jsx"
 
 module.exports = (
   <Router history={browserHistory}>
