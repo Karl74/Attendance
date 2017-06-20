@@ -1,6 +1,5 @@
 # Attendance
 ## About the project
----
 
 June 17, 2017
  
