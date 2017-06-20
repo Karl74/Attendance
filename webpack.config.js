@@ -1,18 +1,18 @@
 module.exports = {
-  entry: "./app/app.js",
+  entry: "./app/App.js",
   output: {
     filename: "public/bundle.js"
   },
   module: {
     loaders: [
-      {
-        test: /\.js?$/,
-        include: /app/,
-        loader: "babel",
-        query: {
-          presets: ["react", "es2015", "stage-0"]
-        }
+    {
+      test: /\.jsx?$/,
+      loader: 'babel',
+      exclude: /node_modules/,
+      query: {
+        presets: ['react', 'es2015', 'stage-1']
       }
+    },
     ]
   },
   // This lets us debug our react code in chrome dev tools. Errors will have lines and file names
